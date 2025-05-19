@@ -1,0 +1,1 @@
+requires python 3.11 or lower, as neither torch nor tensorflow support python 3.13 yet [may 2025]
