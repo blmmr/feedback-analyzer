@@ -1,5 +1,8 @@
 # Feedback Analyzer
 
+![screenshot1](screenshots/screenshot1.png)
+![screenshot2](screenshots/screenshot2.png)
+
 A web application that analyzes user feedback by extracting sentiment and key topics. The application supports both English and Swedish text analysis.
 
 ## Features
@@ -103,3 +106,4 @@ curl -X POST http://localhost:8000/analyze \
 - Keyword extraction filters out common words in both English and Swedish
 - Minimum word length for keyword extraction is 3 characters
 - The top 5 most frequent keywords are returned by default
+- Pre-trained Model: Leverages [Sentiment Analysis by HuggingFace](https://huggingface.co/blog/sentiment-analysis-python)
